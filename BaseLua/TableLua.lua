@@ -22,9 +22,11 @@ for i = 1, 10 do
 end
 --数组中添加元素
 b[#b + 1] = 100
-print(table.maxn(b))
 for i = 1,#b,2 do
     print(b[i])
+end
+for i,v in pairs(a) do
+    print(v)
 end
 
 

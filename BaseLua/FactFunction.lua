@@ -16,3 +16,8 @@ end
 print("enter a number:")
 a = io.read("*number")
 print(fact(a))
+
+a = {p = print }
+a.p("Hello")
+print = math.sin
+print(a.p(print(math.pi/2)))
